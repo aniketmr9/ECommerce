@@ -9,7 +9,7 @@ public class PasswordEncode
 		String password = "dev";
 		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 		String hashedPassword = passwordEncoder.encode(password);
-		System.out.println(hashedPassword);
+		//System.out.println(hashedPassword);
 		password = "admin";
 		hashedPassword = passwordEncoder.encode(password);
 		System.out.println(hashedPassword);
